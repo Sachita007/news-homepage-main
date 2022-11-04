@@ -7,6 +7,7 @@ html{
 body{
     font-family: 'Inter', sans-serif;
     overflow-x: hidden;
+    
 }
 
 
@@ -264,7 +265,7 @@ hr{
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    margin-top: 0px;
+    
 
     /* animation-navbar */
     transform: translateX(100%);
@@ -304,9 +305,11 @@ hr{
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
+    top: 0px;
 }
 
 .active .mobile-navbar-btn .close-icon{
+    position: fixed;
     display: block;
 }
 
