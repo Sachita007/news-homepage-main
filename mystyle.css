@@ -1,0 +1,194 @@
+@import url("assets/fonts/Inter-VariableFont_slnt\,wght.ttf");
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+/* Navbar */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 8rem 1rem 8rem;
+}
+
+ul {
+    display:flex;
+    flex-direction:row;
+}
+p{
+    line-height: 1.5rem;
+    color: hsl(236, 13%, 42%);
+    font-size: 14px;
+}
+li{
+    list-style-type: none;
+    margin-left: 2rem;
+    
+}
+
+.navitem{
+    text-decoration:none;
+    color:  hsl(236, 13%, 42%);
+}
+.navitem:hover{
+color:hsl(5, 85%, 63%);
+}
+
+/* Body-Top */
+
+.big-img{
+    height: 16rem;
+    width: 40.5rem;
+    
+}
+.img{
+    position: relative;
+    height: 17rem; 
+    width: 41rem;  
+}
+.top-body{
+    margin:1rem 8rem 1rem 8rem;
+    display:flex;
+    flex-direction:row;
+}
+
+.heading-section{
+    display: flex;
+    flex-direction:row;
+}
+
+
+
+/* right-card */
+.right-card{
+    margin-left: 6px;
+    padding:0 1rem ;
+    background-color: hsl(240, 100%, 5%);
+}
+.card-n{
+    padding: 10px 0;
+}
+
+.card-news-head{
+    color: hsl(36, 100%, 99%);
+}
+.card-news-head:hover{
+    color: hsl(35, 77%, 62%);
+}
+.card-news{
+    color:hsl(233, 8%, 79%);
+}
+.card-top-head {
+    color: hsl(35, 77%, 62%);
+    margin-bottom: 0;
+}
+hr{
+    margin:3px 2px 3px 2px;
+    height: .1px;
+    border: 0 none;
+    background-color: hsl(236, 13%, 42%);
+}
+.card-news-head{
+    font-size: 1.2rem;
+}
+
+
+
+/* main-news-section */
+.main-heading{
+    position: relative;
+    width: 17rem;
+    
+}
+.heading{
+    font-weight: 900;
+    font-size: 2.9rem;
+    line-height: 3.2rem;
+}
+.main-news{
+    
+    position: relative;
+    width: 21rem;
+    padding: 1rem 1rem 0 1rem;
+    margin-left: 2rem;
+    line-height: 1.5rem;
+    color: hsl(236, 13%, 42%);
+}
+
+.main-p{
+    padding-left: 1.2rem;
+    padding-right: 1rem;
+}
+
+.read-btn{
+    border-radius: 0;
+    height: 2.5rem;
+    width: 11rem;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: hsl(36, 100%, 99%);
+    background-color: hsl(5, 85%, 63%);
+    border: 0;
+    margin-top: 1rem;
+    margin-left: 1.2rem;
+}
+
+.read-btn:hover{
+    background-color: hsl(240, 100%, 5%);
+}
+
+
+
+/* bottom-card-section */
+
+.bottom-section{
+    display:flex;
+    flex-direction: row;
+    margin: 3.5rem 8rem 2rem 8rem ;
+}
+
+.bottom-card{
+    display: flex;
+    flex-direction: row;
+}
+
+.b-img-div{
+    width: 6rem;
+    height: 7.5rem;
+}
+.sm-img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.b-card-div{
+    padding: 0  1rem 1rem 1rem;
+    width: 13.2rem;
+}
+
+.news-count{
+    margin: 0;
+    color: hsl(233, 8%, 79%);
+    font-size: 1.7rem;
+    font-weight: 900;
+}
+
+.b-news-head{
+    
+    margin: 3px 0 0;
+    font-size: 14px;
+    font-weight: 900;
+    padding-right: 1rem;
+}
+
+.b-news-head:hover{
+    color: hsl(5, 85%, 63%);
+}
+.b-news-p{
+    margin-top: 10px;
+    padding-right: 1rem;
+}
