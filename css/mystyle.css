@@ -264,6 +264,7 @@ hr{
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+    margin-top: 0px;
 
     /* animation-navbar */
     transform: translateX(100%);
@@ -298,6 +299,7 @@ hr{
 }
 
 .active .navbar{
+    position: fixed;
     transform: translateX(0);
     opacity: 1;
     visibility: visible;
